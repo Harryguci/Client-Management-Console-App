@@ -1,0 +1,56 @@
+﻿  source.cpp
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\Node.h(25,1): warning C4812: obsolete declaration style: please use 'node<T>::node' instead
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(164,1): warning C4812: obsolete declaration style: please use 'dlist_iterator<T>::dlist_iterator' instead
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(200,1): warning C4812: obsolete declaration style: please use 'dlist_reverse_iterator<T>::dlist_reverse_iterator' instead
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(238,1): warning C4812: obsolete declaration style: please use 'dlist<T>::dlist' instead
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(242,1): warning C4812: obsolete declaration style: please use 'dlist<T>::dlist' instead
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(238,1): warning C4812: obsolete declaration style: please use 'dlist<client>::dlist' instead
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(238): message : while compiling class template member function 'dlist<client>::dlist(void)'
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\source.cpp(17): message : see reference to function template instantiation 'dlist<client>::dlist(void)' being compiled
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(147): message : see reference to class template instantiation 'dlist<client>' being compiled
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(157): message : see reference to class template instantiation 'dlist<T>' being compiled
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(164,1): warning C4812: obsolete declaration style: please use 'dlist_iterator<T>::dlist_iterator' instead
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(164): message : while compiling class template member function 'dlist_iterator<T>::dlist_iterator(node<T> *)'
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(76): message : see reference to function template instantiation 'dlist_iterator<T>::dlist_iterator(node<T> *)' being compiled
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(147): message : see reference to class template instantiation 'dlist_iterator<T>' being compiled
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\Node.h(25,1): warning C4812: obsolete declaration style: please use 'node<client>::node' instead
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\Node.h(25): message : while compiling class template member function 'node<client>::node(T,node<T> *,node<T> *)'
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\dblist.h(260): message : see reference to function template instantiation 'node<client>::node(T,node<T> *,node<T> *)' being compiled
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\Node.h(30): message : while compiling class template member function 'T &node<T>::getelem(void)'
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\source.cpp(52): message : see reference to function template instantiation 'T &node<T>::getelem(void)' being compiled
+          with
+          [
+              T=client
+          ]
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\source.cpp(52): message : see reference to class template instantiation 'node<client>' being compiled
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\listclient.h(61): warning C4172: returning address of local variable or temporary: newClient
+E:\Code\CTDL GT\Bai_tap_lon\ConsoleApplication1\Node.h(33): warning C4172: returning address of local variable or temporary: temp
+  ConsoleApplication1.vcxproj -> E:\Code\CTDL GT\Bai_tap_lon\x64\Debug\ConsoleApplication1.exe
